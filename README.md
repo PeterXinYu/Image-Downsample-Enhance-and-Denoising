@@ -28,9 +28,9 @@
 
 <table>
     <tr>
-        <td ><center><img src="face.png" width="200">face</center></td>
-        <td ><center><img src="cameraman.png" width="200">cameraman</center></td>
-        <td ><center><img src="crowd.png" width="200">crowd</center></td>
+        <td ><center><img src="/images/face.png" width="200">face</center></td>
+        <td ><center><img src="/images/cameraman.png" width="200">cameraman</center></td>
+        <td ><center><img src="/images/crowd.png" width="200">crowd</center></td>
     </tr>
 </table>
 
