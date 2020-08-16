@@ -1,4 +1,4 @@
-# Image-Enhance-and-Denoising
+# Image-Downsample-Enhance-and-Denoising
 ## 1: Spatial and Intensity Resolution
 
 ### (a) Make a program to downsample an image to 1/2, 1/4 and 1/8, and implement a function (DIY) to recover the original size by interpolation (bilinear or bicubic), you can refer Section 2.4 of Digital Image Processing 3rd by Gonzalez. 
