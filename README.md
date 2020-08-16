@@ -75,7 +75,7 @@ Then we make a program which use bilinear interpolation to downsample three imag
 4. **Conclusion**
 
 - The image named face has the least details; the image namde cameraman has middle details; theimage named crow has most abundant details. Observe that isopreference curves tend to become more vertical as the detail in the image increases. This result suggests that for
-  images with a large amount of detail only a few intensity levels may be needed.<br><img src=isopreference.png width=250><br>For example, the isopreference curve in figure corresponding to the crowd is nearly vertical.This indicates that, for a fixed value of N, the perceived quality for this type of image is nearly independent of the number of intensity levels used. Also, this conclusion can be proved in the section Implementation. As we can see, with the quantization changing, the change of image "face" is most significant after k=5, but the change of image "crowd" is unsignigicant except k=1.
+  images with a large amount of detail only a few intensity levels may be needed.<br><img src=/images/isopreference.png width=250><br>For example, the isopreference curve in figure corresponding to the crowd is nearly vertical.This indicates that, for a fixed value of N, the perceived quality for this type of image is nearly independent of the number of intensity levels used. Also, this conclusion can be proved in the section Implementation. As we can see, with the quantization changing, the change of image "face" is most significant after k=5, but the change of image "crowd" is unsignigicant except k=1.
 
 ## 2: Image Enhance and Denoising
 
