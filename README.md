@@ -1,7 +1,7 @@
 # Image-Enhance-and-Denoising
 ## 1: Spatial and Intensity Resolution
 
-### (a) Please make a program to downsample an image to 1/2, 1/4 and 1/8, and implement a function (DIY) to recover the original size by interpolation (bilinear or bicubic), you can refer Section 2.4 of Digital Image Processing 3rd by Gonzalez. 
+### (a) Make a program to downsample an image to 1/2, 1/4 and 1/8, and implement a function (DIY) to recover the original size by interpolation (bilinear or bicubic), you can refer Section 2.4 of Digital Image Processing 3rd by Gonzalez. 
 
 1. **Interpolation**
 
@@ -51,7 +51,7 @@ Then we make a program which use bilinear interpolation to downsample three imag
 - The less size a image has, the more diffcult the image recover to the original size.
 - The downsampling and recovery are not reversible. Although the new image is made by downsampling of the original image, the recovery of new image cannot completely result in the original iamge.
 
-### (b) Please make a program to reduce the quantization level of an image to 1/2, 1/4 and 1/8 and compare the results with (a).
+### (b) Make a program to reduce the quantization level of an image to 1/2, 1/4 and 1/8 and compare the results with (a).
 
 1. **Quantization**
 
@@ -79,7 +79,7 @@ Then we make a program which use bilinear interpolation to downsample three imag
 
 ## 2: Image Enhance and Denoising
 
-### (a) Implement the histogram equalization technique discussed in Section 3.3.1 of Digital Image Processing 3rd by Gonzalez.
+### (a) Implement the histogram equalization technique.
 
 1. **Histogram Equalization**
 
@@ -111,7 +111,7 @@ Then we make a program which use bilinear interpolation to downsample three imag
 
 - We note in the dark image that the most populated histogram bins are concentrated on the lower (dark) end of the intensity scale.An image with low contrast has a narrow histogram located typically toward the middle of the intensity scale. Finally, we see that the components of the histogram of the high-contrast image cover a wide range of the intensity scale, and the distribution of pixels is not too far from uniform, with few bins being much higher than the others. Intuitively, it is reasonable to conclude that an image whose pixels tend to occupy the entire range of possible intensity levels and, in addition, tend to be distributed uniformly, will have an appearance of high contrast and will exhibit a large variety of gray tones. 
 
-### (b) Please implement the sharpening spatial filters in Section 3.6 and apply to the image Spatial Filtering.png.
+### (b) Implement the sharpening spatial filters.
 
 1. **Spatial Filter**  
 
@@ -143,7 +143,7 @@ Then we make a program which use bilinear interpolation to downsample three imag
 
 - The detail in this image is unmistakably clearer and sharper than in the original image. Adding the Laplacian to the original image restored the overall intensity variations in the image. Adding the Laplacian increased the contrast at the locations of intensity discontinuities. The net result is an image in which small details were enhanced and the background tonality was reasonably preserved. 
 
-### (c) Please apply frequency filtering in Section 5.2.4 and 5.4.2 to denoise the given image Frequency Filtering.png. Hint: you can use matlab image processing toolbox but you have to consider which functions should be applied to the image in order to make good recovery.
+### (c) Apply frequency filtering to denoise the given image Frequency Filtering.png.
 
 1. **Frequency Filtering**  
    Filtering techniques in the frequency domain are based on modifying the Fourier transform to achieve a specific objective, and then
