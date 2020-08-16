@@ -37,12 +37,12 @@
 <br>
 Then we make a program which use bilinear interpolation to downsample three images to 1/2, 1/4 and 1/8 respectively.Then, we make recovery from image which has downsample to 1/2, 1/4, 1/8 to original size.
 <br>
-<img src="downsample_face.png" width=700>
-<img src="recovery_face.png" width=700>
-<img src="downsample_cameraman.png " width=700>
-<img src="recovery_cameraman.png" width=700>
-<img src="downsample_crowd.png" width=700>
-<img src="recovery_crowd.png" width=700>
+<img src="/images/downsample_face.png" width=700>
+<img src="/images/recovery_face.png" width=700>
+<img src="/images/downsample_cameraman.png " width=700>
+<img src="/images/recovery_cameraman.png" width=700>
+<img src="/images/downsample_crowd.png" width=700>
+<img src="/images/recovery_crowd.png" width=700>
 <br>
 
 4. **Conclusion**
@@ -68,9 +68,9 @@ Then we make a program which use bilinear interpolation to downsample three imag
 3. **Implementation**
 
 - The followings are different images which have different $k$ values after reducing the quantization level of three orginal images.
-  <img src="down_quant_face.png" width=800>
-  <img src="down_quant_cameraman.png" width=800>
-  <img src="down_quant_crowd.png" width=800>
+  <img src="/images/down_quant_face.png" width=800>
+  <img src="/images/down_quant_cameraman.png" width=800>
+  <img src="/images/down_quant_crowd.png" width=800>
 
 4. **Conclusion**
 
@@ -105,7 +105,7 @@ Then we make a program which use bilinear interpolation to downsample three imag
 - Original image is a dark image, and we show its histogram diagram.
 - After histogram equalization, we show a lighter image and its histogram diagram.
 
-<img src = histogram_euqalization.png width=600>
+<img src = /images/histogram_euqalization.png width=600>
 
 4. **Conclusion**  
 
@@ -137,7 +137,7 @@ Then we make a program which use bilinear interpolation to downsample three imag
 
 3. **Implementation**
 
-<img src=sharpening_image.png width=700>
+<img src=/images/sharpening_image.png width=700>
 
 4. **Conclusion**
 
@@ -168,13 +168,13 @@ Then we make a program which use bilinear interpolation to downsample three imag
 
 3. **Implementation**
 
-<br><center><img src=denoise1.png width=600></center><br>
+<br><center><img src=/images/denoise1.png width=600></center><br>
 
-<br><center><img src=denoise2.png width=600></center><br>
+<br><center><img src=/images/denoise2.png width=600></center><br>
 
-<br><center><img src=denoise3.png width=600></center><br>
+<br><center><img src=/images/denoise3.png width=600></center><br>
 
-<br><center><img src=denoise4.png width=600></center><br>
+<br><center><img src=/images/denoise4.png width=600></center><br>
 
 5. **Conclusion**
 
