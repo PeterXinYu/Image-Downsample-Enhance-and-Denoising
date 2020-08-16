@@ -127,7 +127,7 @@ Then we make a program which use bilinear interpolation to downsample three imag
   featureless background. Background features can be “recovered” while still preserving the sharpening effect of the Laplacian by adding
   the Laplacian image to the original. As noted in the previous paragraph, it is important to keep in mind which definition of the Laplacian
   is used. If the definition used has a negative center coefficient, then we subtract the Laplacian image from the original to obtain a
-  sharpened result. Thus, the basic way in which we use the Laplacian for image sharpening is <br><br><center>$$g(x,y)=f(x,y)+c[\nabla^2f(x,y)]$$</center><br>where f(x, y) and g(x, y) are the input and sharpened images, respectively. We let c = -1 if the Laplacian kernels in <br><img src=laplacian-1.png width=300><br> is used, and c = 1 if <br><img src=laplacian1.png width=300><br> is used.
+  sharpened result. Thus, the basic way in which we use the Laplacian for image sharpening is <br><br><center>$$g(x,y)=f(x,y)+c[\nabla^2f(x,y)]$$</center><br>where f(x, y) and g(x, y) are the input and sharpened images, respectively. We let c = -1 if the Laplacian kernels in <br><img src=/images/laplacian-1.png width=300><br> is used, and c = 1 if <br><img src=/images/laplacian1.png width=300><br> is used.
 - **Algorithm Step**  
   - First, set the kernel.  
   - Second, caculate the sum of products between every value in kernel and every nine values of intensity in original image.
